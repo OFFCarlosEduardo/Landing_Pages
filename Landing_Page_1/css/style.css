@@ -54,6 +54,7 @@ body {
 
 #content-footer {
     background-color: blue;
+    color: white;
     display: flex;
     flex-direction: row;
 }
