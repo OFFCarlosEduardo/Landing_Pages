@@ -14,8 +14,10 @@ body {
 }
 
 #heanding h4 {
-    background-color: blue;
+    background-color: #021d49;
+    color: white;
     text-align: center;
+    padding: 5px 0px;
 }
 
 #nav-bar {
@@ -25,8 +27,30 @@ body {
     margin: 10px 40px;
 }
 
+#nav-bar .h1-nav-bar {
+    font-weight: bold;
+    color: #021d49;
+    font-size: 2em;
+    margin-left: 80px;
+}
+
+.botton-nav-bar {
+    background-color: #ff4700;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-right: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#nav-bar .botton-nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
 #content-main {
-    background: linear-gradient(to bottom, rgb(201, 200, 200), white);
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -34,7 +58,7 @@ body {
 }
 
 #content-aside-one {
-    color: blue;
+    color: #021d49;
 }
 
 #content-aside-one .h2 {
@@ -50,16 +74,36 @@ body {
 
 #content-aside-one .p-botton {
     margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#content-aside-one .botton-nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+#content-aside-one .p-free {
+    margin-top: 20px;
+    margin-left: 120px;
+
+}
+
+#content-aside-one .p-30 {
+    margin-top: 0px;
+    margin-left: 30px;
 }
 
 #content-footer {
-    background-color: blue;
+    background-color: #021d49;
     color: white;
     display: flex;
     flex-direction: row;
 }
 
 #content-footer h2 {
+    display: flex;
+    flex-direction: row;
     padding: 15px;
     margin: auto;
 }
