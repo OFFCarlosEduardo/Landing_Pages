@@ -1,0 +1,13 @@
+Landing Page ---
+
+---	1-Estrutua da Landing Page
+		1.1- CSS
+			:root {
+				--primary-color: White;
+				}
+			color: var(--primary-color);
+		2.1- As imagens tem que ser em SVG (todas).
+			svg backgroud
+	2-Menu
+		Uma nav-bar é sempre uma lista não ordenada, ou seja, <ul> </ul>.
+		É recomendado dentro de uma <section> ter um <h1>.
